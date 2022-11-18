@@ -1,7 +1,7 @@
 version: "3.8" #docker composerのバージョンの指定
 services:
   front:
-    build: ./://buildするdockerfileの位置
+    build: ./ #//buildするdockerfileの位置
     container_name: node #作成するdockerコンテナの名前
     volumes:
       - ./front:/front #docker内と共有するフォルダの指定
