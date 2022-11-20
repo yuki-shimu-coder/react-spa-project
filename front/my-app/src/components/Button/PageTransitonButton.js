@@ -33,6 +33,7 @@ export const PageTransitonButton = ({ urlParam }) => {
     } else if (urlParam === 'index') {
       setText('トップ')
     }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [text]);
 
   return (

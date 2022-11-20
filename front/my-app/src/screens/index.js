@@ -1,5 +1,5 @@
 /** ボタンコンポネント */
-import { PageTransitonButton } from "../components/PageTransitonButton";
+import { PageTransitonButton } from "../components/Button/PageTransitonButton";
 
 export const Index = () => {
   return (
