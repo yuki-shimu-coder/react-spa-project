@@ -13,7 +13,7 @@ RUN curl -fSLO --compressed "https://yarnpkg.com/downloads/$YARN_VERSION/yarn-v$
   && ln -snf /opt/yarn-v$YARN_VERSION/bin/yarnpkg /usr/local/bin/yarnpkg \
   && rm yarn-v$YARN_VERSION.tar.gz
 
-#docker内に入った時の初期パスの指定
+# docker内に入った時の初期パスの指定
 WORKDIR /front
 
 #ローカル側のファイルをdocker内にコピーする
